@@ -1,222 +1,84 @@
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-body {
-    line-height:1;
-}
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-    display:block;
-}
-
-nav ul {
-    list-style:none;
-}
-
-blockquote, q {
-    quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
-
 * {
-	margin:0;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #191970;
-}
-
-.active {
-    background-color: #4CAF50;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-	color: white;
 	text-align: center;
-	font-family: Georgia, Serif;
+	color: white;
+	font-family: forte;
 	font-size: 5em;
-	position:relative;
-	top: 275px;
+	position: relative;
+	top: 40px;
 }
 
 h2 {
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+	width: 120px;
+	height: 40px;
+	margin: 0px 4px;
+	float: left;
 	color: white;
 	text-align: center;
-	font-family: Georgia, Serif;
-	font-size: 4em;
-	position:relative;
-	top: 300px;
-}
-
-#one {
-	background-image: url("http://www.cfau-pd.net/images/desktop-pictures/desktop-pictures-14.jpg"); 
-	background-size: cover;
-	background-position: center center;
-	width: 100%;
-	height: 100vh;
-}
-
-#two {
-	width: 100%;
-	height: 100vh;
-	background-color: honeydew;
-}
-
-#two > h1 {
-	color: black;
-	font-size: 3em;
 	position: relative;
-	top: 175px;
+	left: 750px;
+	top: 15px;
+	font-size: large;
 }
-
-#two > img {
-	float:left;
-	position: relative;
-	top: 150px;
-}
-
-#two > p {
-	font-size: 30px;
-	position: relative;
-	top: 200px;
-	
-}
-#three {
+#Heading {
 	width: 100%;
-	height: 100vh;
+	height: 200px;
+	background-color: #003366;
+}
+
+#Nav {
+	width: 100%;
+	height: 55px;
+	background-color: gold;
+}
+
+#Bio {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	font-size: x-large;
+	right: 50px;
 	background-color: #fff;
-	margin: 0;
 }
 
-#three > h1 {
-	color: black;
-	font-size: 3em;
+#Bio img {
 	position: relative;
-	top: 175px;
+	top: -1400px;
+	right: -1100px;
 }
 
-#three > p {
-	font-size: 30px;
-	position: relative;
-	top: 200px;
-}
-
-#three > img {
-	z-index: 1;
-	position: relative;
-	top: 270px;
-	left: 780px;
-}
-#four {
+#Footer {
 	width: 100%;
-	height: 100vh;
-	background-color: #000;
+	height: 200px;
+	background-color: #003366;
+	border-top-style: solid;
+	border-width: 2em;
+	border-color: gold;
 }
 
-#four > h1 {
-	font-size: 3em;
-	position: relative;
-	top: 175px;
-}
 
-#four > h2 {
-	font-size: 2em;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
