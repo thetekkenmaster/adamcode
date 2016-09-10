@@ -1,16 +1,47 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-
 h1 {
-	color: #fff;
+	text-align: center;
+	color: #2098d1;
 	position: relative;
-	top: 55px;
+	top: 65px;
 	font-family: cooper;
+	font-size: 4em;
+}
+h2 {
+	text-align: center;
+	font-size: 3em;
+}
+h3 {
+	position:relative;
+	color: white;
+	top: 60px;
+}
+p {
+	font-size: 2em;
 }
 header {
-	height: 160px;
-	background-color: #006699;
+	height: 200px;
+	background-color: black;
+}
+nav {
+	height: 55px;
+	background-color: #2098d1;
+	
+}
+section {
+	width: 40%;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	top: 130px;
+}
+footer {
+	height: 150px;
+	background-color: black;
+	position: relative;
+	bottom: -700px;
 	text-align: center;
 }
