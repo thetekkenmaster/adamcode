@@ -1,1 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 
+h1 {
+	color: #fff;
+	position: relative;
+	top: 55px;
+	font-family: cooper;
+}
+header {
+	height: 160px;
+	background-color: #006699;
+	text-align: center;
+}
