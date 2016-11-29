@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper1 {
+	min-height: 100vh;
+	background: url(Picture1.png)no-repeat center center, -moz-linear-gradient(to left, #24c6dc, #514a9d);
+	background: url(Picture1.png)no-repeat center center, -webkit-linear-gradient(to left, #24c6dc, #514a9d);
+	background: url(Picture1.png)no-repeat center center, -o-linear-gradient(to left, #24c6dc, #514a9d);
+	background: -ms-linear-gradient(to left, #24c6dc, #514a9d);
+	background: /*url(Picture1.png)no-repeat center center,*/ linear-gradient(to left, #24c6dc, #514a9d); /*"mantle" colors from the uiGradients website */
+	background-blend-mode: screen;
+	animation-timing-function:ease-in;
+	color: #fff;
+	
+}
+.wrapper2 {
+	background-color: #f2f2f2;
+}
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+	font-family: sans-serif;
+}
+nav ul {
+	margin-right: 100px;
+	position: relative;
+	top: 40px;
+}
+footer ul li {
+	display: inline-block;
+	padding: 20px;
+	font-family: sans-serif;
+}
+footer ul {
+	text-align: center;
+}
+footer {
+	background: linear-gradient(to left, #24c6dc, #514a9d);
+	color: #fff;
+}
+h1 {
+	position: relative;
+	top: 270px;
+	color: #fff;
+	font-size: 6em;
+	font-family: lucida handwriting;
+}
+h2 {
+	position: relative;
+	top: 290px;
+	color: #fff;
+	font-size: 4.5em;
+	font-family: lucida handwriting;
+}
+h3 {
+	font-size: 3em;
+	font-family: lucida handwriting;
+}
+p {
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+.color1 {
+	background-color: #5c604d;
+}
+.color2 {
+	background-color: #ffbad2;
+}
+.color3 {
+	background-color: #f20056;
+}
+.color4 {
+	background-color: #e5e7e1;
+}
+.color5 {
+	background-color: #c8cfb4;
+}
+.color6 {
+	background-color: #a3ae7e;
+}
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.middle {
+	width: 50%;
+	margin: 0 auto;
+}
+.bold {
+	font-weight: bold;
+}
