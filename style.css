@@ -72,7 +72,7 @@
 		}
 		#about {
 			height: 100vh;
-			color: deepskyblue;
+			color: #444;
 			background-color: #f1f1f1;
 		}
 		#about img {
@@ -87,6 +87,7 @@
 			text-align: center;
 			font-size: 3em;
 			position: relative;
+			color: deepskyblue;
 			top: 8%;
 		}
 		.about-me {
