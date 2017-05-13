@@ -251,12 +251,14 @@
 			font-size: 2em;
 			font-weight: bold;
 		}
+		.two {
+			height: 75vh;	
+		}
 		.two ul {
 			display: none;
 		}
 		.two h1 {
 			font-size: 2em;
-			margin-top: 40px;
 		}
 		#about {
 			height: auto;
