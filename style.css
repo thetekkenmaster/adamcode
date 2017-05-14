@@ -234,7 +234,7 @@
 /*media queries*/
 @media screen and (max-width: 400px) {
 		.one {
-			background-image: url('new-york-city.jpg');
+			background-image: url('new-york-city-mobile.jpg');
 			background-size: cover;
 			height: 100vh;
 			color: #fff;
@@ -305,7 +305,8 @@
 			padding:0;
 			margin: 0;
 		}
-		#portfolio .block img {
+		#portfolio .block img:first-child {
+			background-image: url('living-giants-mobile.png');
 			padding: 0;
 			width: 60%;
 			height: 200px;
@@ -355,7 +356,7 @@
 }
 @media screen and (max-width: 767px) {
 .one {
-			background-image: url('new-york-city.jpg');
+			background-image: url('new-york-city-mobile.jpg');
 			background-size: cover;
 			height: 100vh;
 			color: #fff;
@@ -426,7 +427,8 @@
 			padding:0;
 			margin: 0;
 		}
-		#portfolio .block img {
+		#portfolio .block img:first-child {
+			background-image: url('living-giants-mobile.png');
 			padding: 0;
 			width: 60%;
 			height: 200px;
