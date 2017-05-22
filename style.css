@@ -21,6 +21,9 @@
 			background-size: cover;
 			color: #fff;
 		}
+		.one #mobile-dropdown {
+			display: none;
+		}
 		.one h1 {
 			font-size: 6em;
 			padding-top: 32%;
@@ -232,11 +235,29 @@
 			color: #fff;
 		}
 /*media queries*/
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
 		.one {
-			background-image: url('new-york-city-mobile.jpg');
+			/*background-image: url('pexels-photo (2).jpg');*/
+			background-image: url('new-york-city.jpg');
 			background-size: cover;
 			height: 100vh;
+			color: #fff;
+		}
+		.one #mobile-dropdown {
+			display: block;
+		}
+		.one #mobile-dropdown ul {
+			padding: 0;
+			position: relative;
+			top: 45px;
+		}
+		.one #mobile-dropdown ul li {
+			display: inline-block;
+			text-decoration: none;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.one #mobile-dropdown ul li a {
 			color: #fff;
 		}
 		.one h1 {
@@ -262,6 +283,8 @@
 		}
 		.two h1 {
 			font-size: 2em;
+			padding-left: 10px;
+			padding-right: 10px;
 		}
 		#about {
 			height: auto;
@@ -306,7 +329,7 @@
 			margin: 0;
 		}
 		#portfolio .block img:first-child {
-			background-image: url('living-giants-mobile.png');
+			background-image: url('living-giants-mobile.jpg');
 			padding: 0;
 			width: 60%;
 			height: 200px;
@@ -354,25 +377,22 @@
 			padding-bottom: 55px;
 		}
 }
-@media screen and (max-width: 767px) {
-.one {
-			background-image: url('new-york-city-mobile.jpg');
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+		.one {
+			background-image: url('pexels-photo (2).jpg');
 			background-size: cover;
 			height: 100vh;
 			color: #fff;
 		}
 		.one h1 {
 			text-align: center;
-			position: relative;
-			top: 10%;
+			padding-top: 15%;
 			font-size: 3em;
 			font-weight: bold;
 			color: dodgerblue;
 		}
 		.one h2 {
 			text-align: center;
-			position: relative;
-			top: 10%;
 			font-size: 2em;
 			font-weight: bold;
 		}
@@ -384,6 +404,7 @@
 		}
 		.two h1 {
 			font-size: 2em;
+			padding-top: 0;
 		}
 		#about {
 			height: auto;
@@ -428,7 +449,7 @@
 			margin: 0;
 		}
 		#portfolio .block img:first-child {
-			background-image: url('living-giants-mobile.png');
+			background-image: url('living-giants-mobile.jpg');
 			padding: 0;
 			width: 60%;
 			height: 200px;
